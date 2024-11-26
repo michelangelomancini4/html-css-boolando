@@ -65,7 +65,7 @@ main {
 .product {
     /* height: 240px; */
     width: 26%;
-    background-color: blue;
+    /* background-color: blue; */
     border: dashed;
     border-color: yellow;
     color: white;
@@ -79,8 +79,8 @@ main {
 } */
 /* regole sconti */
 .sconto{
-    height: 4%;
-    width: 20%;
+    /* height: 4%;
+    width: 20%; */
     background-color: red;
     position: absolute;
     bottom: 10%;
@@ -89,12 +89,12 @@ main {
 }
 /* regole riquadro sostenibilita */
 .sostenibilita {
-    height: 4%;
-    width: 20%;
+    /* height: 4%;
+    width: 20%; */
     background-color: rgb(29, 207, 19);
     position: absolute;
     bottom: 10%;
-    left: 50px;
+    left: 36px;
     z-index: 10;  
 
 }
@@ -120,7 +120,14 @@ main {
 #nosconto{
     left: 0;
 }
-
-
-
+/* regole info prezzo */
+.info-prezzo {
+    color: black;
+}
+h3+span{
+    color: red;
+}
+.barrato {
+    text-decoration: line-through;
+}
 
