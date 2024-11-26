@@ -168,5 +168,17 @@ h3+span{
 /* regole footer */
 footer{
     background-color: black;
-    height: 200px;
+    color: blueviolet;
+    height: 100px;
+    position: relative;
+
+}
+
+
+.icons{
+    
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    font-size: 30px;
 }
