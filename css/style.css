@@ -67,11 +67,7 @@ main {
 }
 /* regole prodotti */
 .product {
-    /* height: 240px; */
-    width: 26%;
-    /* background-color: blue; */
-    border: dashed;
-    border-color: yellow;
+    width: 27%;
     color: white;
     margin-bottom: 100px;
      position: relative;
@@ -116,10 +112,31 @@ main {
     font-size: 35px;
     text-align: center;
 }
+/* regole hover immagini */
+.redheart{
+    
+    display: none;
+}
+.product:hover .redheart{
+    display: block;
+    color: red;
+    z-index: 10;
+}
 /* regole immagini */
 .product img{
     max-width: 100%;
     max-height: 100%;
+}
+/* regole hover immagini */
+.hoverimg {
+    display: none;
+}
+.product:hover .hoverimg{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+      
 }
 
 
