@@ -23,23 +23,25 @@ header{
 }
 /* regole microsezioni del nav */
 #main-nav div{
-    background-color: green;
+    /* background-color: green;
     border: 1px solid black;
-    border-style: dashed;
+    border-style: dashed; */
     height: 35px;
     margin-top: 11px;
     align-items: center; 
     display: flex;
     justify-content: space-evenly;
+    flex-basis: 30%;
     
     }
     /* regole ul*/
 ul{
-    display: flex;  
+    display: flex; 
     align-items: center; 
     list-style: none;
     display: flex; 
-    gap: 3px; 
+    gap: 5px;    
+    font-size: 18px; 
            
 }
 
@@ -49,6 +51,16 @@ ul{
     align-items: center;
     flex-direction: column;
            
+}
+/* regole logo (da rivedere) */
+.logo{
+    width: 40%;
+    height: 50px;
+    background-image: url(./../img/boolean-logo.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    
 }
 
 
