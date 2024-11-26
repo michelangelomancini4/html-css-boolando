@@ -85,16 +85,13 @@ main {
      position: relative;
     
 }
-/* .product-rules{
-    position: relative;
-    margin-op: 100px;
-} */
+
 /* regole sconti */
 .sconto{
     
     background-color: red;
     position: absolute;
-    bottom: 10%;
+    bottom : 15%;
     left: 0;
     z-index: 10;    
 }
@@ -106,7 +103,7 @@ main {
    
     background-color: rgb(29, 207, 19);
     position: absolute;
-    bottom: 10%;
+    bottom: 15%;
     left: 36px;
     z-index: 10;  
 
