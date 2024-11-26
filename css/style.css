@@ -22,7 +22,7 @@ header{
 }
 /* regole microsezioni del nav */
 #main-nav div{
-    background-color: yellow;
+    background-color: green;
     border: 1px solid black;
     border-style: dashed;
     height: 35px;
@@ -49,6 +49,59 @@ ul{
     flex-direction: column;
         
 }
+/* regole main */
+main {
+    padding-top: 100px;
+}
+/* regole generali riquadri */
+#productlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* regole prodotti */
+.product {
+    height: 240px;
+    width: 26%;
+    background-color: blue;
+    border: dashed;
+    border-color: yellow;
+    margin-bottom: 100px;
+    position: relative;
+    
+}
+.sconto{
+    height: 40px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    z-index: 10;    
+}
+.sostenibilita {
+    height: 40px;
+    width: 50px;
+    background-color: rgb(29, 207, 19);
+    position: absolute;
+    bottom: 10%;
+    left: 50px;
+    z-index: 10;  
+
+}
+.heart {
+    height: 40px;
+    width: 50px;
+    background-color: rgb(218, 229, 22);
+    position: absolute;
+    top: 4%;
+    right: 0;
+    z-index: 10; 
+}
+/* regole immagini */
+/* .product img {
+    max-width: 100%;
+} */
 
 
 
